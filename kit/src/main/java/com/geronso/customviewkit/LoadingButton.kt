@@ -24,6 +24,7 @@ class LoadingButton @JvmOverloads constructor(
 
     init {
         binding = LoadingButtonBinding.inflate(LayoutInflater.from(context), this)
+        render(State.DEFAULT)
     }
 
     fun render(newState: State) {
